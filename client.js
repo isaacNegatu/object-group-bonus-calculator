@@ -1,3 +1,12 @@
+$(document).ready(start());
+
+function start(){
+  $('#submitButton').on('click', testFunction);
+}
+
+function testFunction(){
+  console.log('hi');
+}
 class Employee{
   constructor( name, employeeNumber, annualSalary, reviewRating ){
     this.name = name;
